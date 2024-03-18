@@ -1,0 +1,31 @@
+// переменные пишутся с знаком доллар
+$Roboto: ("_r", 400, "Regular"),
+("_m", 500, "Medium"),
+("_sb", 600, "Medium"),
+("_b", 700, "Bold");
+
+@each $name,
+$weight,
+$src in $Roboto {
+  @font-face {
+    font-family: "Roboto#{$name}";
+    src: url("@/assets/fonts/Roboto-#{$src}.ttf");
+    font-weight: $weight;
+    font-display: swap;
+  }
+}
+
+@font-face {
+  font-family: "JosefinSans_sb";
+  src: url("@/assets/fonts/JosefinSans-SemiBold.ttf");
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: tgico;
+  src: url(@/assets/fonts/tgico.ttf) format("truetype"), url(@/assets/fonts/tgico.woff) format("woff"), url(@/assets/fonts/tgico.svg) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block
+} */

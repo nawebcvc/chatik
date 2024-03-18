@@ -1,0 +1,232 @@
+import { defineStore } from "pinia";
+import { require } from "@/utils";
+
+export const useUsersStore = defineStore("users", {
+  state: () => ({
+    "3735c0a1-f3c9-469f-a3bc-415b565431d0": {
+      name: "Darrell" as string,
+      surname: "Steward" as string,
+      isFavorite: true as boolean,
+      pinned: true as boolean,
+      status: "younger sister" as string,
+      group: "family" as string,
+      wasOnline: "online" as string,
+      number: 6715550110 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/320670cb-260f-42de-a2c2-b6c0da3ec3ed.jpg"),
+      ] as string[],
+      msgCount: 130 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [
+          require("./assets/images/files/0d620733-4d0e-4057-9dbf-b34a246e5792.png"),
+          require("./assets/images/files/607dbb73-b164-42ec-9add-905d24c29738.png"),
+          require("./assets/images/files/b4932068-c728-4e0f-866a-22e9159090f5.png"),
+          require("./assets/images/files/1a5da5c8-35a5-4e97-8042-7b558af477bb.png"),
+          require("./assets/images/files/f064ee0d-8ccd-4212-bc6c-0beca35b6adf.png"),
+          require("./assets/images/files/55550ed3-04dd-493e-bbae-8459dfecbe6b.png"),
+          require("./assets/images/files/a2d8d800-424a-42bf-9109-f76e897a2ca6.png"),
+          require("./assets/images/files/e6d5a967-abd8-4362-a8ee-23f45c2f57f7.png"),
+          require("./assets/images/files/e923826a-d2e0-4e16-8a16-750913d68668.png"),
+          require("./assets/images/files/8d69cd82-b939-4273-abe7-7d480543fa7d.png"),
+          require("./assets/images/files/fd5cf2d4-72fd-4bd8-a4cd-bfaca6150164.png"),
+          require("./assets/images/files/734c8065-d04c-4e00-9dc5-7d36708396e5.png"),
+          require("./assets/images/files/885ce671-bf84-437a-80b2-1d5bd2fbfba6.png"),
+          require("./assets/images/files/df696d5d-7845-4cba-88a3-36801668b9f7.png"),
+          require("./assets/images/files/7dbcb6bb-6fd5-474c-a441-f3b734fd0bbf.png"),
+        ] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [
+          "https://dribbble.com/shots/16434545-24LIB-cryptocurrency-exchange-trading"
+        ] as string[],
+      },
+    },
+    "af3eb6a8-32c3-493f-b975-553faf2d6626": {
+      name: "Kathryn" as string,
+      surname: "Murphy" as string,
+      isFavorite: false as boolean,
+      pinned: true as boolean,
+      status: "older sister" as string,
+      group: "family" as string,
+      wasOnline: "online" as string,
+      number: 998901234567 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/a677683b-5005-4e7e-8808-70b61a8c9d88.jpg"),
+      ] as string[],
+      msgCount: 87 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "6459e793-46e6-4cd0-be78-a204a2a0f984": {
+      name: "Esther" as string,
+      surname: "Howard" as string,
+      isFavorite: false as boolean,
+      pinned: true as boolean,
+      status: "girlfriend" as string,
+      group: "friend" as string,
+      wasOnline: "online" as string,
+      number: 998901234567 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/b3925d8d-1be6-42d2-843f-287104acd42a.jpg"),
+      ] as string[],
+      msgCount: 87 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "6d385965-b59b-4b9a-b8fb-0f40ed639e60": {
+      name: "Kristin" as string,
+      surname: "Watson" as string,
+      isFavorite: false as boolean,
+      pinned: true as boolean,
+      status: "Esther`s friend" as string,
+      group: "friend" as string,
+      wasOnline: "writing" as string,
+      number: 998901234567 as number,
+      language: "hi" as string,
+      photos: [
+        require("./assets/images/users/f3e77e34-04ea-4134-9abd-4bfd1546cf30.jpg"),
+      ] as string[],
+      msgCount: 87 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "e25bdd58-ff60-42e5-9ae2-b66284d55fb1": {
+      name: "Cody" as string,
+      surname: "Fisher" as string,
+      isFavorite: false as boolean,
+      pinned: true as boolean,
+      status: "designer" as string,
+      group: "work" as string,
+      wasOnline: "writing" as string,
+      number: 998901234567 as number,
+      language: "ja" as string,
+      photos: [
+        require("./assets/images/users/ddcd4540-3e81-4802-87b6-12eb3d273318.jpg"),
+      ] as string[],
+      msgCount: 0 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "f72d5381-5f8f-41a6-b80d-2a46f44cc4f3": {
+      name: "Kristin" as string,
+      surname: "Watson" as string,
+      isFavorite: false as boolean,
+      pinned: false as boolean,
+      status: "mother" as string,
+      group: "family" as string,
+      wasOnline: "recently" as string,
+      number: 998901234567 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/a0baaf4a-1be3-4d9b-bb98-a7838be7beeb.jpg"),
+      ] as string[],
+      msgCount: 4 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "6bce7243-6f25-40d0-aecd-6564d98382a2": {
+      name: "Kristin" as string,
+      surname: "Watson" as string,
+      isFavorite: false as boolean,
+      pinned: false as boolean,
+      status: "aunt" as string,
+      group: "family" as string,
+      wasOnline: "recently" as string,
+      number: 998901234567 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/669e7b6e-d0e8-4a4f-b542-fc5387980538.jpg"),
+      ] as string[],
+      msgCount: 0 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "7bc08cc2-23f9-4ac8-a128-4884c5d5b7fa": {
+      name: "Kristin" as string,
+      surname: "Watson" as string,
+      isFavorite: false as boolean,
+      pinned: false as boolean,
+      status: "aunt" as string,
+      group: "family" as string,
+      wasOnline: "recently" as string,
+      number: 998901234567 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/55cbcf66-46d7-4178-accf-7c5eedcb5a82.jpg"),
+      ] as string[],
+      msgCount: 0 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+    "55cbcf66-46d7-4178-accf-7c5eedcb5a82": {
+      name: "Cody" as string,
+      surname: "Fisher" as string,
+      isFavorite: false as boolean,
+      pinned: false as boolean,
+      status: "hr" as string,
+      group: "work" as string,
+      wasOnline: "recently" as string,
+      number: 998901234567 as number,
+      language: "en" as string,
+      photos: [
+        require("./assets/images/users/307d4de2-3701-4090-8b3d-6d76a6f777f4.jpg"),
+      ] as string[],
+      msgCount: 0 as number,
+      lastMsg:
+        ['01:01', "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iste quas         consequatur non error qui et illum officia necessitatibus iusto nam. Rem non tempora a vero quas similique, odit quod repellat, eaque incidunt blanditiis! Minima, delectus. Repudiandae blanditiis accusamus laudantium temporibus tempora culpa excepturi ipsam consequatur eveniet in eligendi est, dolor hic dolores provident laboriosam doloribus sit doloremque magni et voluptatibus, tempore illum iusto. In, odio nulla? Mollitia debitis vitae eum dolorem in, iste perspiciatis corrupti aut temporibus accusantium sint illum, harum accusamus minima repellendus sapiente velit. Sunt sint libero blanditiis! Rerum minima fugiat repudiandae, doloribus eaque eius necessitatibus recusandae!"] as [string, string],
+      allFiles: {
+        imgs: [] as string[],
+        audios: [] as string[],
+        attachments: [] as string[],
+        links: [] as URL[],
+      },
+    },
+  }),
+});
